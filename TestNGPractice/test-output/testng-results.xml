@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-01T22:41:06 CDT" name="Default suite" finished-at="2021-11-01T22:41:06 CDT" duration-ms="33">
+    <groups>
+    </groups>
+    <test started-at="2021-11-01T22:41:06 CDT" name="Default test" finished-at="2021-11-01T22:41:06 CDT" duration-ms="33">
+      <class name="practiceTests.BasicTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:practiceTests.BasicTest@5f683daf]" started-at="2021-11-01T22:41:06 CDT" name="beforeMethod" finished-at="2021-11-01T22:41:06 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="gmailLogin()[pri:0, instance:practiceTests.BasicTest@5f683daf]" started-at="2021-11-01T22:41:06 CDT" name="gmailLogin" finished-at="2021-11-01T22:41:06 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:practiceTests.BasicTest@5f683daf]" started-at="2021-11-01T22:41:06 CDT" name="afterMethod" finished-at="2021-11-01T22:41:06 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- practiceTests.BasicTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

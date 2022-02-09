@@ -23,10 +23,12 @@ public class LocatorsDemo1 {
           searchbox .sendKeys("T-shirts");
           driver.findElement(By.name("submit_search")).click();               // Submit search button by name
           
-          //link test
+          //link test - will be used to find link by giving full text of the link
           driver.findElement(By.linkText("Printed Chiffon Dress")).click();
-          // partial link
-          //driver.findElement(By.partialLinkText("Chiffon Dress")).click();   
+          
+          // partial link - will be used to find link by giving some portion of the link
+          //driver.findElement(By.partialLinkText("Chiffon Dress")).click(); 
+          driver.close(); // it closes the current window of the browser
   
 	} 
 

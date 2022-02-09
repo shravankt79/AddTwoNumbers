@@ -15,14 +15,16 @@ public class LocatorsDemo2 {
          driver.get("http://automationpractice.com/index.php");
          driver.manage().window().maximize(); //maximize web page
          
-         // to written multiple web elements as class name
-         int sliders=driver.findElements(By.className("homeslider-container")).size();
+         // findElements is a method which will written multiple web elements by using class name. 
+         int sliders=driver.findElements(By.className("homeslider-container")).size(); // sliders is a variable to find multiple slides.
          System.out.println(sliders);
          
          // to present all multiple links in web page as Tag name
-         int links=driver.findElements(By.tagName("a")).size();
+         int links=driver.findElements(By.tagName("a")).size(); // size() method will find number of web elements, int is a variable type.
          System.out.println(links); 
          
+         // to close current window of web
+         driver.close();
 	}
 
 }
